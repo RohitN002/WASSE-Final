@@ -1,0 +1,35 @@
+.navbar{
+  background: transparent;
+  
+font-weight: 700;
+
+  display: flex;
+  color: #dfe4ea;
+  
+  
+}
+
+.navbar.active{
+  background-color:#0F56A4;
+  color: rgb(249, 246, 251);
+  
+}
+.navbar-blur{
+  filter: blur(80%);
+}
+body {
+  margin: 0;
+}
+
+header {
+  margin: 0;
+}
+
+/* Or target specific elements like ul within your header */
+.navbar ul {
+  margin: 0;
+}
+
+.navbar {
+  padding: 0;
+}

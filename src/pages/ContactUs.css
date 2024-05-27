@@ -1,0 +1,20 @@
+.card-color{
+    background-color:aaa;
+}
+.text {
+   color:#e6e5e5
+}
+.icon{
+    font-size: 25px;
+    filter: brightness(70%);
+}
+
+.icon-location{
+    color: red;
+}
+.icon-mail{
+    color:#ff8800 
+}
+.icon-contact{
+    color:#007acc
+}
