@@ -1,7 +1,9 @@
 import React from 'react'
 
-export const Trustee = () => {
+const Trustee = () => {
   return (
     <div>Trustee</div>
   )
 }
+
+export default Trustee
