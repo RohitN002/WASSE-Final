@@ -157,7 +157,7 @@ const MAX_CONTENT_LENGTH = 100;
     <div className="container-fluid mt-5" >
       <div className='container p-2 'style={{backgroundColor:"grey"}}>
       {cardData.map((item) => (
-      <div key={item.id} className="row align-items-center m-4 p-5 " style={{backgroundColor:"#1a3a6a", borderRadius:"20px"}}>
+      <div key={item.id} className="row align-items-center m-4 p-5 shadow-box " style={{backgroundColor:"#1a3a6a", borderRadius:"20px"}}>
         <div className="col-md-6">
           <img src={item.images} alt={item.description} className="img-fluid" style={{borderRadius:"10px"}}/>
         </div>

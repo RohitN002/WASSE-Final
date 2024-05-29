@@ -1,17 +1,25 @@
 .navbar{
   background: transparent;
-  
+
 font-weight: 700;
 
   display: flex;
-  color: #dfe4ea;
+  color: #07182e;
   
   
 }
-
+.shadow-box{
+  box-shadow: 0px 2px 5px rgba(15, 6, 87, 0.3);
+}
+.bg{
+  background: white;
+}
+.text-col{
+  color: #0d1a34;
+}
 .navbar.active{
-  background-color:#0F56A4;
-  color: rgb(249, 246, 251);
+  /* background-color:#ffffff; */
+  color: rgb(8, 27, 85);
   
 }
 .navbar-blur{

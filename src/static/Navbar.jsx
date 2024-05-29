@@ -26,38 +26,40 @@ function NavbarContainer(){
   return (
    
     
-        <Navbar expand="lg"sticky='top'  className={navbar? "navbar active text-dark":"navbar text-white"} style={{zIndex:1,borderRadius:""}}>
+        <Navbar expand="lg"sticky='top'  className={navbar? "navbar active ":"navbar "} style={{zIndex:1,borderRadius:"", }}>
            
-
-          <Container>
+           {/* {navbar? "navbar active text-dark":"navbar text-secondary"} */}
+          <Container className= {navbar? "navbar active bg px-3 shadow-box text-dark":"navbar px-3"} style={{borderRadius:"40px"}}>
           <img src={logo} style={{
-maxWidth:'70px',
-maxHeight:"100px",
+maxWidth:'50px',
+maxHeight:"50px",
 
-}} className='pe-3'/>
-            <Navbar.Brand href="#home" className={navbar ? "navbar active":"navabar"}>{WASSETRUST}</Navbar.Brand>
-        
+}} className='pe-2'/>
+            <Navbar.Brand href="#home" className={navbar ? "navbar  active":"navabar"}>{WASSETRUST}</Navbar.Brand>
+            {/* {navbar ? "navbar active":"navabar"} */}
             <Navbar.Toggle aria-controls="basic-navbar-nav" />
             
             <Navbar.Collapse id="basic-navbar-nav">
               <Container>
               <Nav className="justify-content-end">
-              <Nav.Link href="/" className={navbar ? "navbar text-white active":"navabar"}>{Home}</Nav.Link>
-              <Nav.Link href="/Activities" className={navbar ? "navbar text-white active":"navabar"}>{Activities}</Nav.Link>
-             
-              <Nav.Link href="/DonateUs" className={navbar ? "navbar text-white active":"navabar"}>{DonateUs}</Nav.Link>
-              <NavDropdown title="About" id="basic-nav-dropdown" className='text-dark'>
-              <NavDropdown.Item href="#action/3.1">Trustee</NavDropdown.Item>
-              <NavDropdown.Item href="#action/3.2">
+              <Nav.Link href="/" className={navbar ? "navbar  active":"navabar"} >{Home}</Nav.Link>
+              {/* {navbar ? "navbar text-white active":"navabar"} */}
+              <Nav.Link href="/Activities" className={navbar ? "navbar  active":"navabar"}>{Activities}</Nav.Link>
+              {/* {navbar ? "navbar text-white active":"navabar"} */}
+              <Nav.Link href="/DonateUs" className={navbar ? "navbar  active":"navabar"}>{DonateUs}</Nav.Link>
+              {/* {navbar ? "navbar text-white active":"navabar"} */}
+              <NavDropdown title="About" id="basic-nav-dropdown" className='text-white'>
+              <NavDropdown.Item href="/Trustee">Trustee</NavDropdown.Item>
+              <NavDropdown.Item href="/Structure">
                 Structure
               </NavDropdown.Item>
-              <NavDropdown.Item href="#action/3.3">Planning</NavDropdown.Item>
+              <NavDropdown.Item href="/">Planning</NavDropdown.Item>
            
               <NavDropdown.Item href="#action/3.4">10 Commands</NavDropdown.Item>
               
-              <NavDropdown.Item href="#action/3.5">Community welbening</NavDropdown.Item>
-         
-             
+              <NavDropdown.Item href="/CommunityWelbeing">Community welbening</NavDropdown.Item>
+              <NavDropdown.Item href="/FuturePlan">Future Plan</NavDropdown.Item>
+              <NavDropdown.Item href="/Covid19">Covid 19</NavDropdown.Item>
             </NavDropdown>
             <LanguageSelector/>
               </Nav>

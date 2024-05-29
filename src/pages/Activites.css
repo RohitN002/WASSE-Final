@@ -8,7 +8,10 @@
     object-fit: cover; /* Ensures images fill the container */
     
   }
-
+.box-shadow{
+  box-shadow: 0px 2px 5px rgba(2, 1, 10, 0.949);
+  
+}
   /* General styles */
   body {
     background-color:#F2F2F2;
