@@ -5,6 +5,9 @@ import cwb2 from '../../assets/CWB-2.png'
 const CommunityWelbeing = () => {
   return (
     <div>
+        <div className='container'>
+
+   
         <h2>Community Wellbeing at Keystone</h2>
         <p>The programmes and interventions are designed by viewing “wellbeing” as a concept beyond the set parameters of Human Development Index and through various lenses like livelihood outcomes and political autonomy and its implications on traditional knowledge systems and cultural practices as well as on the mental and physical health of indigenous communities.  </p>
         <h2>Components</h2>
@@ -26,7 +29,7 @@ const CommunityWelbeing = () => {
 
 </p>
         </div>
-            </div>
+            </div>     </div>
   )
 }
 
