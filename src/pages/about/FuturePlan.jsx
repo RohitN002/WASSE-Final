@@ -7,6 +7,7 @@ const FuturePlan = () => {
       <ul>
 
       </ul>
+      <h3 className='fw-bold'> Our Future Plans</h3>
       <li>To establish 50 educational support centers to prevent school dropout among the school going children of poor.</li>
 <li> To conduct school enrollment campaign at 150 places by setting up awareness cultural team</li>
 <li>To give self employment skill development and capacity building training to the women SHG members </li>

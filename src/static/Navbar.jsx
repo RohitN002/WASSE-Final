@@ -13,7 +13,7 @@ function NavbarContainer(){
  
   const [navbar,setNavbar]=useState(false)
   const {t} = useTranslation();
-  const {WASSETRUST,Home,Activities,DonateUs} = t("Navbar");
+  const {WASSETRUST,Home,Activities,DonateUs,About,Trustee,Covid19,CommunityWelbeing,Structure,FuturePlan} = t("Navbar");
   const changeBackground =()=>{
     if(window.scrollY>=80){
       setNavbar(true)
@@ -48,18 +48,18 @@ maxHeight:"50px",
               {/* {navbar ? "navbar text-white active":"navabar"} */}
               <Nav.Link href="/DonateUs" className={navbar ? "navbar  active":"navabar"}>{DonateUs}</Nav.Link>
               {/* {navbar ? "navbar text-white active":"navabar"} */}
-              <NavDropdown title="About" id="basic-nav-dropdown" className='text-white'>
-              <NavDropdown.Item href="/Trustee">Trustee</NavDropdown.Item>
+              <NavDropdown title={About} id="basic-nav-dropdown" className='text-white'>
+              <NavDropdown.Item href="/Trustee">{Trustee}</NavDropdown.Item>
               <NavDropdown.Item href="/Structure">
-                Structure
+                {Structure}
               </NavDropdown.Item>
-              <NavDropdown.Item href="/">Planning</NavDropdown.Item>
-           
-              <NavDropdown.Item href="#action/3.4">10 Commands</NavDropdown.Item>
               
-              <NavDropdown.Item href="/CommunityWelbeing">Community welbening</NavDropdown.Item>
-              <NavDropdown.Item href="/FuturePlan">Future Plan</NavDropdown.Item>
-              <NavDropdown.Item href="/Covid19">Covid 19</NavDropdown.Item>
+           
+              {/* <NavDropdown.Item href="#action/3.4">10 Commands</NavDropdown.Item> */}
+              
+              <NavDropdown.Item href="/CommunityWelbeing">{CommunityWelbeing}</NavDropdown.Item>
+              <NavDropdown.Item href="/FuturePlan">{FuturePlan}</NavDropdown.Item>
+              <NavDropdown.Item href="/Covid19">{Covid19}</NavDropdown.Item>
             </NavDropdown>
             <LanguageSelector/>
               </Nav>

@@ -12,10 +12,10 @@ const Footer = () => {
   return (
     
     
-<div class=" m-0 pt-5" >
+<div className=" m-0 pt-5" >
  
   <footer
-          class=" p-0 m-0 text-white"
+          className=" p-0 m-0 text-white"
           style={{backgroundColor:"#0F56A4"}}
           >
   <h3 className='p-5 mx-5'>
@@ -25,16 +25,16 @@ const Footer = () => {
             </p>
             </h3>
     <hr />
-      <section class="">
+      <section className="">
       
-        <div class="row">
+        <div className="row">
          
-          <div class="col-md-3 col-lg-3 col-xl-4 mx-auto mt-5 ">
+          <div className="col-md-3 col-lg-3 col-xl-4 mx-auto mt-5 ">
             
           
             
         
-            <h5 class="text-uppercase mb-4 fw-bold pt-5">
+            <h5 className="text-uppercase mb-4 fw-bold pt-5">
               {WASSETRUST}
             </h5>
            

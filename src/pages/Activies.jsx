@@ -24,6 +24,10 @@ import act13 from "../assets/act13.jpg"
 import act12 from "../assets/act12.jpg"
 import act2 from "../assets/act2.jpg"
 
+import act15 from "../assets/act15.jpg"
+import act16 from "../assets/act16.jpg"
+import act17 from "../assets/act17.jpg"
+
 import { useState } from 'react';
 
 import './Activites.css'
@@ -31,7 +35,7 @@ import { useTranslation} from "react-i18next";
 const Activies = () => {
   const {t} = useTranslation();
   const {activity1,activity2,activity3,activity4,activity5,activity6,activity7,activity8,
-    activity9,activity10,activity11,activity12,activity13,activity14} = t("activities")
+    activity9,activity10,activity11,activity12,activity13,activity14,activity15,activity16,activity17} = t("activities")
 
    const cardData =[
     {
@@ -115,10 +119,28 @@ const Activies = () => {
     content :activity14,
     images :[act14]
   
+   },
+   {
+    id:15,
+    content :activity15,
+    images :[act15]
+  
+   },
+   {
+    id:16,
+    content :activity16,
+    images :[act16]
+  
+   },
+   {
+    id:17,
+    content :activity17,
+    images :[act17]
+  
    }
    ] 
 
-const MAX_CONTENT_LENGTH = 100;
+// const MAX_CONTENT_LENGTH = 100;
 
   // const cardElements = cardData.map((card, index) => {
   //   const content = card.content;
