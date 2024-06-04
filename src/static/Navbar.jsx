@@ -8,12 +8,12 @@ import {useTranslation} from "react-i18next";
 import LanguageSelector from '../components/LanguageSelector'; 
 import  './Navbar.css'
 
-
+import { useLocation } from 'react-router-dom';
 function NavbarContainer(){
- 
+  const location = useLocation();
   const [navbar,setNavbar]=useState(false)
   const {t} = useTranslation();
-  const {WASSETRUST,Home,Activities,DonateUs,About,Trustee,Covid19,CommunityWelbeing,Structure,FuturePlan} = t("Navbar");
+  const {WASSETRUST,Home,Activities,DonateUs,About,Trustee,Covid19,CommunityWelbeing,OrgStructure,ProStructure,FuturePlan} = t("Navbar");
   const changeBackground =()=>{
     if(window.scrollY>=80){
       setNavbar(true)
@@ -31,8 +31,8 @@ function NavbarContainer(){
            {/* {navbar? "navbar active text-dark":"navbar text-secondary"} */}
           <Container className= {navbar? "navbar active bg px-3 shadow-box text-dark":"navbar px-3"} style={{borderRadius:"40px"}}>
           <img src={logo} style={{
-maxWidth:'50px',
-maxHeight:"50px",
+maxWidth:'40px',
+maxHeight:"40px",
 
 }} className='pe-2'/>
             <Navbar.Brand href="#home" className={navbar ? "navbar  active":"navabar"}>{WASSETRUST}</Navbar.Brand>
@@ -41,19 +41,21 @@ maxHeight:"50px",
             
             <Navbar.Collapse id="basic-navbar-nav">
               <Container>
-              <Nav className="justify-content-end">
+              <Nav className="justify-content-end" >
               <Nav.Link href="/" className={navbar ? "navbar  active":"navabar"} >{Home}</Nav.Link>
               {/* {navbar ? "navbar text-white active":"navabar"} */}
-              <Nav.Link href="/Activities" className={navbar ? "navbar  active":"navabar"}>{Activities}</Nav.Link>
+              <Nav.Link href="/Activities" className={navbar ? "navbar  active":"navabar"} >{Activities}</Nav.Link>
               {/* {navbar ? "navbar text-white active":"navabar"} */}
-              <Nav.Link href="/DonateUs" className={navbar ? "navbar  active":"navabar"}>{DonateUs}</Nav.Link>
+              <Nav.Link href="/DonateUs" className={navbar ? "navbar  active":"navabar"} >{DonateUs}</Nav.Link>
               {/* {navbar ? "navbar text-white active":"navabar"} */}
-              <NavDropdown title={About} id="basic-nav-dropdown" className='text-white'>
+              <NavDropdown title={About} id="basic-nav-dropdown" className='text-white' >
               <NavDropdown.Item href="/Trustee">{Trustee}</NavDropdown.Item>
-              <NavDropdown.Item href="/Structure">
-                {Structure}
+              <NavDropdown.Item href="/OrgStructure">
+                {OrgStructure}
               </NavDropdown.Item>
-              
+               <NavDropdown.Item href="/ProStructure">
+                {ProStructure}
+              </NavDropdown.Item> 
            
               {/* <NavDropdown.Item href="#action/3.4">10 Commands</NavDropdown.Item> */}
               

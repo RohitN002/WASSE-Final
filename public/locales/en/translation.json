@@ -11,7 +11,8 @@
     "Trustee":"Trustee",
     "Covid19":"Covid19",
     "CommunityWelbeing":"Community Welbeing",
-    "Structure":"Structure",
+    "OrgStructure":"Organization Structure",
+    "ProStructure":"Program Structure",
     "FuturePlan":"Future Plan"
         },
 

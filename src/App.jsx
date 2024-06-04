@@ -14,9 +14,9 @@ import CommunityWelbeing from './pages/about/CommunityWelbeing'
 import Covid19 from './pages/about/Covid19'
 
 import FuturePlan from './pages/about/FuturePlan'
-import Structure from './pages/about/Structure'
+import OrgStructure from './pages/about/OrgStructure'
 import Trustee from './pages/about/Trustee'
-
+import ProStructure from './pages/about/ProStructure'
 
 const App = () => {
 
@@ -37,7 +37,8 @@ const App = () => {
       <Route path='/CommunityWelbeing' element={<CommunityWelbeing />} ></Route>
       <Route path='/Covid19' element={<Covid19 />} ></Route>
       <Route path='/FuturePlan' element={<FuturePlan />} ></Route>
-      <Route path='/Structure' element={<Structure />} ></Route>
+      <Route path='/OrgStructure' element={<OrgStructure />} ></Route>
+      <Route path='/ProStructure' element={<ProStructure />} ></Route>
       <Route path='/Trustee' element={<Trustee />} ></Route>
     <Route  path='/DonateUs' element={<DonateUs/>} ></Route>
     

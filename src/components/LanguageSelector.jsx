@@ -22,7 +22,7 @@ const LanguageSelector = () => {
 
   return (
     <>
-    <Dropdown className="btn-container">
+    <Dropdown className="btn-container " >
     
     <Dropdown.Toggle variant="danger" id="dropdown-basic">
     Language
