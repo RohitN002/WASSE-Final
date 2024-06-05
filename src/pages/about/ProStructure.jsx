@@ -1,11 +1,18 @@
 import React from 'react'
 import progStructure from "../../assets/prog-structure.png"
+import { useTranslation} from "react-i18next";
 const ProStructure = () => {
+  const {t} = useTranslation();
+  const {ProStructure,para  } = t("ProgramStructure");
+
   return (
-    <div>
-        <h3>Programme Structure</h3>
-      <p>Keystone operates its eco-development work across the following seven thematic areas or ‘programmes’. Teams under all programme include roles mentioned in the organisational structure. Each programme works to achieve a mix of several of the United Nations Sustainable Development Goals listed below. All programmes are approached in an intersectional manner, with cross-sectoral activities mindfully planned to meet goals, be it through consulting barefoot expertise for building tribal archives within the People and Nature Collectives programme, adopting a gender justice lens within the Climate Change programme, or prioritising disaster responsiveness within the Organisational Development programme.</p>
-      <img src={progStructure} alt="" />
+    <div className='container-fluid py-5'>
+        <h3 className='fw-bold p-2'>{ProStructure}</h3>
+      <p className='h6 pb-3'>{para}</p>
+      <div className='d-flex bg-secondary'> 
+      <img src={progStructure} alt="" className='justify-content-center mx-auto p-3'  />
+      </div>
+     
     </div>
   )
 }

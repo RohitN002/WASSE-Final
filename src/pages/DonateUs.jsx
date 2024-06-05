@@ -11,6 +11,7 @@ const DonateUs = () => {
   const {t} = useTranslation();
   const {Line1,Line2}=t("Donateus")
   const {Contactnumber}=t("Contactnumber")
+  const {Heading,Para1,ParaHeading1,Para2,ParaHeading2,Para3,ParaHeading3,Para4,ParaHeading4,Para5,ParaHeading5,Para6,ParaHeading6,Para7,ParaHeading7,Para8, ParaHeading8,Para9 ,ParaHeading9,Para10,ParaHeading10}=t("DonateUs")
   
   return (
    
@@ -37,7 +38,7 @@ UPI Payments accepted here </h6></div> */}
 
 {/* <div className='d-flex justify-content-center align-items-center pt-1 pb-3 text-secondary'> scan qr to make payment</div> */}
 <div className='d-flex p-3 ' >
-<div className='mx-auto bg-white p-3' style={{borderRadius:"30px", border:"1px solid grey"}}>
+<div className='mx-auto bg-white p-3 pb-5' style={{borderRadius:"30px", border:"1px solid grey"}}>
 <h4 className='text-dark fw-bold mx-auto'>WASSE TRUST</h4>
 
 <img src={payment1} alt="" className='mx-auto ' style={{maxHeight:"150px",
@@ -60,59 +61,58 @@ outline:"",
 
 
     </div>
-    <div className='container-fluid'>
-   <h3  className='fw-bold'>  Your Donation Makes a Difference in our Nation</h3>
+    <div className='container-fluid my-5'>
+   <h3  className='fw-bold mb-3'>  {Heading}</h3>
     <ul>
-      <li className='m-3'>
-      <span className='fw-bold h5 pe-2'> Direct Impact:  </span> Your donation goes directly to supporting the cause you care about. Whether it's funding scholarships, providing medi/cal supplies, or planting trees, you'll see the tangible results of your generosity.
-      </li>
-      <li className='m-3'>
-        <span className='fw-bold h5 pe-2' >Empowering Communities:</span>
-        Together, we uplift those in need. Your contribution helps us provide crucial services and opportunities, fostering a brighter future for vulnerable communities.
-      </li>
+     
 
-      <li className='m-3'>
-        <span className='fw-bold h5 pe-1' > Investing in Potential: </span>
-        We believe in empowering individuals. Your donation allows us to offer skills training, educational resources, or microloans, equipping people with the tools they need to build a better life. 
-
+      <li className='m-3 h6'>
+        <span className='fw-bold h5 pe-2' > {ParaHeading1}</span>
+     {Para1}      
       </li>
 
-      <li className='m-3'>
-        <span className='fw-bold h5 pe-2' > Transparency You Can Trust:</span>
-        We are committed to open communication. You'll have access to detailed reports on our website or annual updates showcasing how your donation is used.
+      <li className='m-3 h6'>
+        <span className='fw-bold h5 pe-2' >{ParaHeading2}</span>
+     {Para2}      
       </li>
 
-      <li className='m-3'>
-        <span className='fw-bold h5 pe-2' >Tax Advantage:</span>
-         Your generosity is rewarded. The Indian government offers tax deductions for donations made to registered trusts under Section 80G of the Income Tax Act.
-
+      <li className='m-3 h6'>
+        <span className='fw-bold h5 pe-2' >{ParaHeading3} </span>
+    {Para3}       
       </li>
 
-      <li className='m-3'>
-        <span className='fw-bold h5 pe-2' > Creating Lasting Change:</span>
-        Your contribution has a ripple effect. It could fund a program that educates future leaders, equip healthcare workers, or safeguard endangered species for generations to come.
+      <li className='m-3 h6'>
+        <span className='fw-bold h5 pe-2' > {ParaHeading4}   </span>   {Para4}
+   
       </li>
 
-      <li className='m-3'>
-        <span className='fw-bold h5 pe-2' >    Become a Changemaker: </span>
-     You're not just a donor, you're a partner in progress. By supporting our trust, you actively contribute to building a more just and equitable society.
+      <li className='m-3 h6'>
+        <span className='fw-bold h5 pe-2' >{ParaHeading5} </span>
+    {Para5}     
       </li>
 
-      <li className='m-3'>
-        <span className='fw-bold h5 pe-2' > Every Rupee Counts: </span>
-        No contribution is too small. Together, your collective generosity allows us to achieve our ambitious goals. Every rupee you donate makes a difference!
+      <li className='m-3 h6'>
+        <span className='fw-bold h5 pe-2' >{ParaHeading6} </span>
+    {Para6}       
       </li>
 
-      <li className='m-3'>
-        <span className='fw-bold h5 pe-2' > Building a Stronger India:</span>
-         Your support empowers us to invest in the future. By focusing on education and healthcare, we're building a healthier, more skilled workforce for a prosperous India.
+      <li className='m-3 h6'>
+        <span className='fw-bold h5 pe-2' > {ParaHeading7}</span>
+     {Para7}    
+      </li>
+      <li className='m-3 h6'>
+      <span className='fw-bold h5 pe-2'> {ParaHeading8}  </span>    {Para8}
+      </li>
+      <li className='m-3 h6'>
+        <span className='fw-bold h5 pe-2' >{ParaHeading9}</span>
+     {Para9}     
       </li>
 
-      <li className='m-3'>
-        <span className='fw-bold h5 pe-2' >  The Power of Giving:</span>
-        Thank you for believing in our work. Your act of giving is incredibly rewarding. You're making a positive impact and creating a better future for all.
-      </li>
+      <li className='m-3 h6'>
+        <span className='fw-bold h5 pe-1' > {ParaHeading10} </span>
+    {Para10}      
 
+      </li>
     </ul>
    </div>
 

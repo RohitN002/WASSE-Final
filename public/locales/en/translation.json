@@ -35,8 +35,44 @@
 "nametitle":"Reason Behind Name",
 "motivetitle":"Motive"
 
-    }
-,
+    },
+    "ProgramStructure":{
+      "ProStructure":"Programe Structure",
+      "para":"WASSE Trust operates its eco-development work across the following seven thematic areas or ‘programmes’. Teams under all programme include roles mentioned in the organisational structure. Each programme works to achieve a mix of several of the United Nations Sustainable Development Goals listed below. All programmes are approached in an intersectional manner, with cross-sectoral activities mindfully planned to meet goals, be it through consulting barefoot expertise for building tribal archives within the People and Nature Collectives programme, adopting a gender justice lens within the Climate Change programme, or prioritising disaster responsiveness within the Organisational Development programme."
+    
+    },
+    "OrganisationalStructure":{
+    "OrgStructure":"Organisational Structure",
+    "Para":"WASSE TRUST’s team is over 150 members strong, including our board of trustees and resource persons, who bring valuable insights from tribal communities across the Coimbatore and Central/Eastern India. Our programme working group members map out workflow and streamline task schedules for each project within the seven programmes. ",
+    "H1":"Each role is assigned various levels of responsibility, according to the following colour key:"},
+    "CommunityWelbeing":{
+"Heading":"Community Wellbeing at WASSE TRUST",
+"p1":"The programmes and interventions are designed by viewing “wellbeing” as a concept beyond the set parameters of Human Development Index and through various lenses like livelihood outcomes and political autonomy and its implications on traditional knowledge systems and cultural practices as well as on the mental and physical health of indigenous communities. ",
+"Heading2":"Components",
+"p2":"Community wellbeing is achieved only when the economic, social, physical, psychological, political and cultural conditions of every individual in the community are satisfied. The programme components represent these elements of wellbeing and interventions are designed accordingly by prioritising gender inclusivity, climate change and sustainable outcomes.",
+"p3":"Facilitating farm- and forest-based livelihoods for indigenous communities. Pro-environment and gender-inclusive approaches contribute to food, economic security as well as enabling farmer linkages to local enterprise and market opportunities. Designing farm-based livelihood options for landless farmers and creating local economies, short supply chains through bio-input production and centralised, cluster-level nurseries that can raise cash crop saplings.",
+"p4":"Based on the belief that land tenure and property rights are paramount to sustainable livelihoods, wellbeing and pro-conservation outcomes, the programme identifies and nurtures local leadership, develop capacities to govern and make decisions that have long-term socio-economic and political implications for the communities, facilitate Forest Rights Act claims and develop capacities for advocacy by strengthening community voices.",
+"p5":"Ensuring improved health outcomes among communities through preventive health care by promoting better nutritional practices, bridging the gap in accessing timely health care and awareness generation through community health workers. We also identify and train frontline health workers to develop local capacities for sustained efforts on preventive health interventions."
+    },
+"FuturePlan":{
+  "Heading":" Our Future Plans",
+  "P1":"To establish 50 educational support centers to prevent school dropout among the school going children of poor.",
+  "P2":" To conduct school enrollment campaign at 150 places by setting up awareness cultural team",
+  "P3":"To give self employment skill development and capacity building training to the women SHG members ",
+  "P4":"To conduct health camps for the scavenging community and poor people in villages",
+  "P5":"To give medical checkups to all those living in and prevent them from their drinking habits (alcohol consumption) and safe health condition",
+  "P6":"Work with municipal bodies as well as housing colonies commercial complexes hospitals etc to provide safety equipments to sweepers and ensure their social security ",
+  "P7":"Educate sweepers to engage in cleaning / sweeping work with use of safety equipments and technology",
+  "P8":" Work in collaboration with corporate sectors, vocational training institute to provide vocational skill training to poor youth",
+  "P9":"To identify school drop out children and supporting for their education development in all villages",
+  "P10":"To organize training for poor people about government welfare schemes",
+  "P11":"To motivating small entrepreneur in villages and town.",
+  "P12":"To provide subsidy loans to the SHG members in all villages",
+  "P13":"To conduct training for poor parents in village about their children education and preventing child labour. ",
+  "P14":"To established women SHG’s and strengthening savings and prevented (Kanthu Vatti) private money lending",
+  "P15":" Work towards social security (Insurance livelihood security, access to credit etc) of the poor people of villages"
+
+},
   "activities":{
     "activity1": "On behalf of the Vasi Foundation, we visited the Nilampati Adivasi people to help them cultivate the land themselves.",
     "activity2": "In Coimbatore district Neelampathi Adivasi village, Rangammal's land was provided with irrigation facility for agricultural use from a well that had not been pumped for more than 15 years. Vasi Trust Founder A. Yuvaraja (A) Arun and Trustee N. Mothi were members of the Trust.",
@@ -55,7 +91,39 @@
 
   },
   
-  
+  "DonateUs":{
+    "Heading":"Your Donation Makes a Difference in our Nation :",
+
+    "ParaHeading1":" Direct Impact: ",
+    "Para1":"Your donation goes directly to supporting the cause you care about. Whether it's funding scholarships, providing medi/cal supplies, or planting trees, you'll see the tangible results of your generosity.",
+
+    "ParaHeading2":"Empowering Communities:",
+    "Para2":" Together, we uplift those in need. Your contribution helps us provide crucial services and opportunities, fostering a brighter future for vulnerable communities.",
+
+    "ParaHeading3":"Investing in Potential:",
+    "Para3":" We believe in empowering individuals. Your donation allows us to offer skills training, educational resources, or microloans, equipping people with the tools they need to build a better life. ",
+
+    "ParaHeading4":"Transparency You Can Trust:",
+    "Para4":"We are committed to open communication. You'll have access to detailed reports on our website or annual updates showcasing how your donation is used.",
+
+    "ParaHeading5":"Tax Advantage:",
+    "Para5":" Your generosity is rewarded. The Indian government offers tax deductions for donations made to registered trusts under Section 80G of the Income Tax Act.",
+
+    "ParaHeading6":"Creating Lasting Change:",
+    "Para6":"Your contribution has a ripple effect. It could fund a program that educates future leaders, equip healthcare workers, or safeguard endangered species for generations to come.",
+
+    "ParaHeading7":" Become a Changemaker:",
+    "Para7":"  You're not just a donor, you're a partner in progress. By supporting our trust, you actively contribute to building a more just and equitable society.",
+
+    "ParaHeading8":" Every Rupee Counts:",
+    "Para8":"  No contribution is too small. Together, your collective generosity allows us to achieve our ambitious goals. Every rupee you donate makes a difference!",
+
+    "ParaHeading9":"Building a Stronger India:",
+    "Para9":" Your support empowers us to invest in the future. By focusing on education and healthcare, we're building a healthier, more skilled workforce for a prosperous India.",
+
+    "ParaHeading10":" The Power of Giving:",
+    "Para10":"  Thank you for believing in our work. Your act of giving is incredibly rewarding. You're making a positive impact and creating a better future for all."
+  },
   "ContactUs":{
     "ContactUs":"Contact Us",
     "DNo":"No 32-35(1) , ",
