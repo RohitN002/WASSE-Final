@@ -17,7 +17,8 @@ const DonateUs = () => {
    
     <div className='pt-5 pb-5 ' style={{backgroundColor:"#f9f9f9",}}  >
       
-      <div className='mx-5 fw-bold'> <span className='h4 fw-bold' style={{color:"#13213c"}}>{Line1} </span> <span className='h5 fw-bold' style={{color:"#192c4f"}} >{Line2}</span><h2 className='fw-bold pt-2'>{Contactnumber}</h2>
+      <div className='mx-5 fw-bold'> 
+      <span className='h4 fw-bold' style={{color:"#415a77"}}>{Line1} </span> <span className='h5 fw-bold' style={{color:"#778da9"}} >{Line2}</span><h2 className='fw-bold pt-2' style={{color:"#4a4e69"}}>{Contactnumber}</h2>
       </div>
   
     <div className="container p-5" style={{maxWidth:"450px"}}>
@@ -62,7 +63,7 @@ outline:"",
 
     </div>
     <div className='container-fluid my-5'>
-   <h3  className='fw-bold mb-3'>  {Heading}</h3>
+   <h3  className='fw-bold mb-3'style={{color:"#22223b"}}>  {Heading}</h3>
     <ul>
      
 

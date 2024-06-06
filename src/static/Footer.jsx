@@ -16,7 +16,7 @@ const Footer = () => {
  
   <footer
           className=" p-0 m-0 text-white"
-          style={{backgroundColor:"#0F56A4"}}
+          style={{backgroundColor:"#4a4e69"}}
           >
   <h3 className='p-5 mx-5'>
             <p className='kural'>
@@ -53,24 +53,24 @@ const Footer = () => {
          
 
         
-          <hr class="w-100 clearfix d-md-none" />
+          <hr className="w-100 clearfix d-md-none" />
 
          
        
       </section>
     
 
-      <div class="my-3">
+      <div className="my-3">
 
     
-      <section class="p-3 pt-0">
-        <div class="row d-flex align-items-center">
+      <section className="p-3 pt-0">
+        <div className="row d-flex align-items-center">
          
-          <div class="col-md-7 col-lg-8 text-center text-md-start">
+          <div className="col-md-7 col-lg-8 text-center text-md-start">
           
-            <div class="p-3">
+            <div className="p-3">
               © 2024 Copyright:
-              <a class="text-white" href="https://wassetrust.org/"
+              <a className="text-white" href="https://wassetrust.org/"
                  >wassetrust.org</a
                 >
             </div>
