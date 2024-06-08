@@ -24,29 +24,32 @@ const App = () => {
   
   return (
     
-      <BrowserRouter>
+    //   <BrowserRouter>
        
-    <Navbar/>
+    // <Navbar/>
     
    
-    <Routes>
-      <Route path='/' element={<Home />} ></Route>  
-          <Route path='/AboutUs' element={<AboutUs />} ></Route>
-      <Route path='/Activities' element={<Activies />} ></Route>
-      <Route path='/ContactUs' element={<ContactUs />} ></Route>
-      <Route path='/CommunityWelbeing' element={<CommunityWelbeing />} ></Route>
-      <Route path='/Covid19' element={<Covid19 />} ></Route>
-      <Route path='/FuturePlan' element={<FuturePlan />} ></Route>
-      <Route path='/OrgStructure' element={<OrgStructure />} ></Route>
-      <Route path='/ProStructure' element={<ProStructure />} ></Route>
-      <Route path='/Trustee' element={<Trustee />} ></Route>
-    <Route  path='/DonateUs' element={<DonateUs/>} ></Route>
+    // <Routes>
+    //   <Route path='/' element={<Home />} ></Route>  
+    //       <Route path='/AboutUs' element={<AboutUs />} ></Route>
+    //   <Route path='/Activities' element={<Activies />} ></Route>
+    //   <Route path='/ContactUs' element={<ContactUs />} ></Route>
+    //   <Route path='/CommunityWelbeing' element={<CommunityWelbeing />} ></Route>
+    //   <Route path='/Covid19' element={<Covid19 />} ></Route>
+    //   <Route path='/FuturePlan' element={<FuturePlan />} ></Route>
+    //   <Route path='/OrgStructure' element={<OrgStructure />} ></Route>
+    //   <Route path='/ProStructure' element={<ProStructure />} ></Route>
+    //   <Route path='/Trustee' element={<Trustee />} ></Route>
+    // <Route  path='/DonateUs' element={<DonateUs/>} ></Route>
     
-    </Routes>
+    // </Routes>
    
-    <Footer/>
+    // <Footer/>
     
-    </BrowserRouter>
+    // </BrowserRouter>
+    <div>
+      <h3>404 NOT FOUND </h3>
+    </div>
   )
 }
 
