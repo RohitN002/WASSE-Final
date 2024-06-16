@@ -8,7 +8,7 @@ const CommunityWelbeing = () => {
         const {t} = useTranslation();
   const {Heading,p1,Heading2,p2,p3,p4,p5 } = t("CommunityWelbeing");
   return (
-    <div className='my-4'>
+    <div className='my-4 p-1'>
         <div className='container '>
 
    
