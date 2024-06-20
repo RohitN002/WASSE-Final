@@ -18,18 +18,18 @@ const {motive,motiveDes}=t("motive")
 const {namereason}=t("namereason")
 const {nametitle,motivetitle}=t("name")
 
-const paragraphs ={
-  motive:[motive],namereason:[namereason]
-}
+// const paragraphs ={
+//   motive:[motive],namereason:[namereason]
+// }
 
 
 
 
   
-  const handleCategoryClick = (category) => {
-    setSelectedCategory(category);
-    setCurrentParagraphIndex(0); // Reset index when category changes
-  };
+//   const handleCategoryClick = (category) => {
+//     setSelectedCategory(category);
+//     setCurrentParagraphIndex(0); // Reset index when category changes
+//   };
 
 
 
@@ -46,8 +46,11 @@ const paragraphs ={
 </div>
 <div className='text-white p-3'>
   <h5 className='fw-bold text-white'>{motivetitle} :</h5>
-  <p className='text p-2'>{motive}</p>
+  <p className='text'>{motive}</p>
+  <div className='d-flex'>
   <p className='mx-auto'>{motiveDes}</p>
+  </div>
+
 </div>
 <div className='pb-5  p-3'>
   <h5 className='fw-bold text-white' style={{color:""}}>{nametitle} :</h5>

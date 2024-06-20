@@ -29,7 +29,7 @@ function ImageSlider() {
           <p></p>
         </Carousel.Caption>
       </Carousel.Item>
-      <Carousel.Item interval={1500}>
+      <Carousel.Item interval={1000}>
         <img src={image3} text="Third slide" className='img'/>
         <Carousel.Caption>
           <h3 className='fw-bold'>Sun</h3>
@@ -39,7 +39,7 @@ function ImageSlider() {
         </Carousel.Caption>
       </Carousel.Item>
 
-      <Carousel.Item interval={1500} >
+      <Carousel.Item interval={1000} >
         <img src={image4}  text="First slide" className='img'/>
         <Carousel.Caption>
           <h3 className='fw-bold'>Sky</h3>
@@ -47,7 +47,7 @@ function ImageSlider() {
         </Carousel.Caption>
       </Carousel.Item>
 
-      <Carousel.Item interval={1500} >
+      <Carousel.Item interval={1000} >
         <img src={image5}  text="First slide" className='img' />
         <Carousel.Caption>
           <h3 className='fw-bold'>Earth</h3>
