@@ -14,7 +14,7 @@ const Home = () => {
   const {line1, line2,line3,line4,line5,line6,line7,line8,line9,line10,line11,line12,line13,line14,line15,line16,line17} = t("description");
   const {description}=t("homedescription")
 const Text = [line1, line2,line3,line4,line5,line6,line7,line8,line9,line10,line11,line12,line13,line14,line15,line16,line17]
-const {motive}=t("motive")
+const {motive,motiveDes}=t("motive")
 const {namereason}=t("namereason")
 const {nametitle,motivetitle}=t("name")
 
@@ -47,6 +47,7 @@ const paragraphs ={
 <div className='text-white p-3'>
   <h5 className='fw-bold text-white'>{motivetitle} :</h5>
   <p className='text p-2'>{motive}</p>
+  <p className='mx-auto'>{motiveDes}</p>
 </div>
 <div className='pb-5  p-3'>
   <h5 className='fw-bold text-white' style={{color:""}}>{nametitle} :</h5>
