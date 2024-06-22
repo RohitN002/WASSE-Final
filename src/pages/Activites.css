@@ -1,58 +1,15 @@
-
-.card {
-    box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.15);
-  }
-  
-  
-  .card-img-top {
-    object-fit: cover; /* Ensures images fill the container */
-    
-  }
-.box-shadow{
-  box-shadow: 0px 2px 5px rgba(2, 1, 10, 0.949);
-  
+.hover-effect {
+  transition: transform 0.1s, box-shadow 0.1s;
 }
-  /* General styles */
-  body {
-    background-color:#F2F2F2;
-    color: #333;
-  }
-  
-  .card {
-    background-color: #fff;
-    border-color: #ddd;
-  }
-  
-  .card-title {
-    color: #0F56A4;
-  }
-  
-  .card-text {
-    color: #333;
-  }
-  
-  /* Buttons */
-  .btn {
-    background-color: #0F56A4;
-    color: #fff;
-  }
-  
-  .btn:hover {
-    background-color: #0D4C8C;
-  }
-  
-  /* Links */
-  a {
-    color: #0F56A4;
-  }
-  
-  a:hover {
-    color: #0D4C8C;
-  }
-  
-  .p-color{
-    color:#3e578b;
-  }
-  .hover{
-    transition: background-color 0.5s ease-in-out
-  }
+
+.hover-effect:hover {
+  transform: scale(1.003);
+  box-shadow: 0 4px 8px rgb(23, 98, 6);
+ 
+}
+
+.image-container {
+  margin: 10px;
+  overflow: hidden;
+  border-radius: 5px;
+}

@@ -93,15 +93,16 @@ const Covid19 = () => {
    
    ] 
   return (
-    <div className="container-fluid my-5" >
-      <div className='container p-2 mt-5 'style={{backgroundColor:"grey"}}>
+    <div className=" mt-5" >
+      <div className='container  py-2  '>
+        {/* <h3 className='m-4'>{Activities}</h3> */}
       {cardData.map((item) => (
-      <div key={item.id} className="row align-items-center m-4 p-5 shadow-box " style={{backgroundColor:"#1a3a6a", borderRadius:"20px"}}>
+      <div key={item.id} className="row align-items-center mx-2 m-5 py-3  img-fluid hover-effect " style={{backgroundColor:"#A3DBA6", borderRadius:"20px"}}>
         <div className="col-md-6">
-          <img src={item.images} alt={item.description} className="img-fluid" style={{borderRadius:"10px"}}/>
+          <img src={item.images} alt={item.description} className="img-fluid" style={{borderRadius:"10px",height:"250px",width:"500px"}}/>
         </div>
-        <div className="col-md-6 ">
-          <p className='text-white'>{item.content}</p>
+        <div className="col-md-6 mt-4">
+          <p className='fw-bold' style={{color:'#508837'}}>{item.content}</p>
         </div>
       </div>
     ))}

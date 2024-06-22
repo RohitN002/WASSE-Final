@@ -1,6 +1,16 @@
 .paraHeading{
-color: rgb(45, 34, 87);
+color:#1F4F21
+;
 }
 .DPara{
-    color: rgb(87, 105, 143);
+    color: #477433;
+}
+.DDes-Hea{
+    color: #1F4F21;
+}
+.DDes-subHea{
+    color: #42702d;
+}
+.D-phNo{
+    color: #1F4F21;
 }

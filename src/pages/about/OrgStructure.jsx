@@ -16,18 +16,19 @@ const OrgStructure = () => {
 
       <p className='h6 Para' style={{color:"#f4a261"}}>{Para}</p>
       <div className='m-5'>
-      <div className="bg-secondary d-flex p-3  mx-auto shadow-box" style={{maxWidth:"700px",borderRadius:"50px"}}>
+      {/* style={{maxWidth:"700px",borderRadius:"50px"}} */}
+      <div className=" d-flex p-3  mx-auto shadow-box" style={{maxWidth:'500px', boxShadow:"0px 2px 5px black", borderRadius:"20px"}}>
 
-<img src={orgStructure1} alt="" className='mx-auto'/>
+<img src={orgStructure1} alt="" className='mx-auto img-org'/>
 </div >
       </div>
      
      
       <p className='h6 fw-bold ParaHeading' style={{color:"#dc2f02"}}>{H1} </p>
       <div className='m-5'> 
-      <div className='bg-success d-flex p-3 m-3 mx-auto shadow-box'style={{maxWidth:"700px",borderRadius:"50px",}}> 
+      <div className=' d-flex p-3 m-3 mx-auto shadow-box'style={{maxWidth:'500px', boxShadow:"0px 2px 5px black", borderRadius:"20px"}}> 
 
-<img src={orgStructure2} alt="" className='mx-auto' />
+<img src={orgStructure2} alt="" className='mx-auto img-org' />
 </div>
       </div>
       

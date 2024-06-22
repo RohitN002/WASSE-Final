@@ -45,9 +45,12 @@ maxHeight:"40px",
               <Nav.Link href="/" className={navbar ? "navbar  active":"navabar"} >{Home}</Nav.Link>
               {/* {navbar ? "navbar text-white active":"navabar"} */}
               <Nav.Link href="/Activities" className={navbar ? "navbar  active":"navabar"} >{Activities}</Nav.Link>
+              
+              <Nav.Link href="/MissionAndVission" className={navbar ? "navbar  active":"navabar"} >Mission & Vission</Nav.Link>
               {/* {navbar ? "navbar text-white active":"navabar"} */}
               <Nav.Link href="/DonateUs" className={navbar ? "navbar  active":"navabar"} >{DonateUs}</Nav.Link>
               {/* {navbar ? "navbar text-white active":"navabar"} */}
+              <Nav.Link href="/DonateUs" className={navbar ? "navbar  active":"navabar"} >{DonateUs}</Nav.Link>
               <NavDropdown title={About} id="basic-nav-dropdown" className='text-white' >
               <NavDropdown.Item href="/Trustee">{Trustee}</NavDropdown.Item>
               <NavDropdown.Item href="/OrgStructure">

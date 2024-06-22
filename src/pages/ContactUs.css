@@ -2,7 +2,7 @@
     background-color:aaa;
 }
 .text {
-   color:#e6e5e5
+   color:#b30000
 }
 .icon{
     font-size: 25px;
@@ -17,4 +17,7 @@
 }
 .icon-contact{
     color:#007acc
+}
+.li{
+    list-style-type: none;
 }

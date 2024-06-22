@@ -7,29 +7,14 @@ import Card from '../static/Card';
 
 
 const Home = () => {
-  const MyContext = createContext();
-  const [selectedCategory, setSelectedCategory] = useState('motive');
-  const [currentParagraphIndex, setCurrentParagraphIndex] = useState(0);
+ 
   const {t} = useTranslation();
-  const {line1, line2,line3,line4,line5,line6,line7,line8,line9,line10,line11,line12,line13,line14,line15,line16,line17} = t("description");
-  const {description}=t("homedescription")
-const Text = [line1, line2,line3,line4,line5,line6,line7,line8,line9,line10,line11,line12,line13,line14,line15,line16,line17]
+
 const {motive,motiveDes}=t("motive")
 const {namereason}=t("namereason")
 const {nametitle,motivetitle}=t("name")
+const {linee1, linee2,linee3,linee4,linee5,linee6,linee7,linee8,linee9,linee10,linee11,linee12,linee13,linee14,linee15,linee16,linee17} = t("homedescription");
 
-// const paragraphs ={
-//   motive:[motive],namereason:[namereason]
-// }
-
-
-
-
-  
-//   const handleCategoryClick = (category) => {
-//     setSelectedCategory(category);
-//     setCurrentParagraphIndex(0); // Reset index when category changes
-//   };
 
 
 
@@ -38,23 +23,47 @@ const {nametitle,motivetitle}=t("name")
    <ImageSlider/>
     <div  className='py-5 my-5'>
       
-<div className='container mt-5 mx-auto   fw-bold' style={{outline:"2px solid ",borderRadius:"40px",backgroundColor:"#1a3a6a"
+<div className='container mt-5 mx-auto   fw-bold' style={{outline:"2px solid green ",borderRadius:"40px",backgroundColor:"#A3DBA6"
 }}>
 <div className='p-3'>
 <Card/>
-  <p  className='text'> {description}</p>
 </div>
-<div className='text-white p-3'>
-  <h5 className='fw-bold text-white'>{motivetitle} :</h5>
-  <p className='text'>{motive}</p>
+<div className=' text-content '><p className="text ">{linee1}</p>
+  <p className="text ">{linee2}</p>
+  <p className="text ">{linee3}</p>
+  <p className="text ">{linee4}</p>
+  <p className="text ">{linee5}</p>
+  <p className="text ">{linee6}</p>
+  <p className="text ">{linee7}</p>
+  <p className="text ">{linee8}</p>
+  <p className="text ">{linee9}</p>
+  <p className="text ">{linee10}</p>
+  <p className="text ">{linee11}</p>
+  <p className="text ">{linee12}</p>
+  <p className="text ">{linee13}</p>
+  <p className="text ">{linee14}</p>
+  <p className="text ">{linee15}</p>
+  <p className="text ">{linee16}</p>
+  <p className="text mb-5">{linee17}</p>
+
+</div>
+
+
+
+<div className='text-white p-3 mt-5'>
+
+  <span className='fw-bold text-white h5 heading-home p-2  ' style={{outline:"2px solid greeen"}}>{motivetitle} :</span>
+
+
+  <p className=' text- pt-4 ps-3 mb-3'>{motive}</p>
   <div className='d-flex'>
-  <p className='mx-auto'>{motiveDes}</p>
+  <span className='mx-auto  motive-des p-2 mb-4'>{motiveDes}</span>
   </div>
 
 </div>
 <div className='pb-5  p-3'>
-  <h5 className='fw-bold text-white' style={{color:""}}>{nametitle} :</h5>
-  <p className='text p-2'>{namereason}</p>
+  <span className='fw-bold text-white h5 p-2 heading-home' style={{color:""}}>{nametitle} :</span>
+  <p className='text- p-2 ps-3 pt-4'>{namereason}</p>
 </div>
 
  

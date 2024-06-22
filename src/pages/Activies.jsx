@@ -28,7 +28,7 @@ import act15 from "../assets/act15.jpg"
 import act16 from "../assets/act16.jpg"
 import act17 from "../assets/act17.jpg"
 
-import { useState } from 'react';
+
 
 import './Activites.css'
 import { useTranslation} from "react-i18next";
@@ -36,7 +36,7 @@ const Activies = () => {
   const {t} = useTranslation();
   const {activity1,activity2,activity3,activity4,activity5,activity6,activity7,activity8,
     activity9,activity10,activity11,activity12,activity13,activity14,activity15,activity16,activity17} = t("activities")
-
+const {Activities} = t('Navbar')
    const cardData =[
     {
       id:1,
@@ -140,51 +140,20 @@ const Activies = () => {
    }
    ] 
 
-// const MAX_CONTENT_LENGTH = 100;
 
-  // const cardElements = cardData.map((card, index) => {
-  //   const content = card.content;
-  //   const isContentTruncated = content.length > MAX_CONTENT_LENGTH;
-  //   const truncatedContent = content.substring(0, MAX_CONTENT_LENGTH) + "...";
-  //   const [isContentExpanded, setIsContentExpanded] = useState(false);
-
-    // const handleReadMore = (event) => {
-    //   event.preventDefault(); // Prevent default form submission behavior
-    //   setIsContentExpanded(!isContentExpanded);
-    // };
-
-  //   return (
-  //     <div className="col-lg-6 col-md-6 col-sm-12 mb-5 p-2 pt-3 hover " key={index}  >
-  //       <div className="card shadow border-0 rounded-lg overflow-hidden " style={{borderRadius:"10px"}}>
-  //         <div className="card-body p-2 d-flex flex-column justify-content-between" style={{background:"#F2F2F2"}} >
-  //           <img src={card.images[0]} className="card-img-top img-fluid mb-2"  style={{  maxHeight: '290px',maxWidth:"650px" }}/>
-  //           <p className="card-text p-color">
-  //             {isContentTruncated && !isContentExpanded ? truncatedContent : content}
-  //             {isContentTruncated && (
-  //               <a href="#" className="  " style={{ textDecoration:"none"}}onClick={handleReadMore}>
-  //                 {isContentExpanded ? "Show Less" : "Read More"}
-  //               </a>
-  //             )}
-  //           </p>
-  //         </div>
-  //       </div>
-  //     </div>
-  //   );
-  // });
 
   return (
-    // <div className=" container border border-primary my-5 p-4 "  style={{background:"#0F56A4", }}>
-    //   <div className="row">{cardElements}</div>
-    // </div>
-    <div className="container-fluid mt-5" >
-      <div className='container p-2 'style={{backgroundColor:"grey"}}>
+    
+    <div className=" mt-5" >
+      <div className='container  py-2  '>
+        <h3 className='m-4'>{Activities}</h3>
       {cardData.map((item) => (
-      <div key={item.id} className="row align-items-center m-4 p-5 shadow-box " style={{backgroundColor:"#1a3a6a", borderRadius:"20px"}}>
+      <div key={item.id} className="row align-items-center mx-2 m-5 py-3  img-fluid hover-effect" style={{backgroundColor:"#A3DBA6", borderRadius:"20px"}}>
         <div className="col-md-6">
-          <img src={item.images} alt={item.description} className="img-fluid" style={{borderRadius:"10px"}}/>
+          <img src={item.images} alt={item.description} className="img-fluid" style={{borderRadius:"10px", maxHeight:"300px",width:"500px"}}/>
         </div>
-        <div className="col-md-6 ">
-          <p className='text-white'>{item.content}</p>
+        <div className="col-md-6 mt-4">
+          <p className='fw-bold' style={{color:'#508837'}}>{item.content}</p>
         </div>
       </div>
     ))}

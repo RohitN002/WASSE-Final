@@ -7,7 +7,8 @@ const Card = () => {
     <div className="col-md-4" >
       <img src="https://i2.wp.com/hindupad.com/wp-content/uploads/Thiruvalluvar.jpg?fit=1054%2C1190&ssl=1" className="img-fluid rounded" alt="valluvar img"/>
     </div>
-    <div className="col-md-8 text-center" style={{backgroundColor:"#0F56A4"}}>
+    {/* 2E7632 */}
+    <div className="col-md-8 text-center" style={{backgroundColor:"#2E7632"}}>
       <div className="card-body">
         <h5 className="card-title fw-bold text-white pt-4">திருக்குறள்</h5>
         <div className="card-text text-white">

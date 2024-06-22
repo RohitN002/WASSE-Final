@@ -16,13 +16,13 @@ const Footer = () => {
  
   <footer
           className=" p-0 m-0 text-white"
-          style={{backgroundColor:"#4a4e69"}}
+          style={{backgroundColor:"#2E7632"}}
           >
   <h3 className='p-5 mx-5'>
-            <p className='kural'>
+            <span className='kural ' >
             பிணியின்மை செல்வம் விளைவின்பம் ஏமம்  <br />
 அனியென்ப நாட்டிவ் வைத்து
-            </p>
+            </span>
             </h3>
     <hr />
       <section className="">
@@ -40,13 +40,10 @@ const Footer = () => {
            
           </div>
           
-{/* 
-          <hr class="w-100 clearfix d-md-none" /> */}
-{/* 
-          <div className='justify-content-end'> */}
+
 <ContactUs/>
 </div>
-        {/* </div> */}
+     
 
          
           

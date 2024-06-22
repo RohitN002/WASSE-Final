@@ -1,0 +1,62 @@
+// "homedescription":{
+    //   "description":"தாகம் கொண்டவர்கள் எப்படி தண்ணீரை தேடுகின்றனரோ அதுபோல் தண்ணீரும் தாகம் கொண்டவரை தேடிக்கொண்டிருக்கிறது.ஒவ்வொரு மனிதரும் பிறருக்கு உதவும் வகையில் அவரது உயிர், வடிவம்,மனம் இருப்பது போல் இயற்கைக்கு இயற்கையின் நீதியில் இயங்கும் இயக்கவிதியில் பல உயிர்களுக்கு (Wasse) பல்வேறு உதவியும் தேவைப்படுகிறது.பிற உயிர்களுக்கு உதவவேண்டும் என்பதும் உதவாமல் தவிர்க்கப்படக் கூடாது என்பதும் எழுதாமல் எழுதப்பட்ட இயற்கை உண்மை விதி உயிர்களைக் காக்கும் உன்னதம் பிற உயிர்களுக்கு உதவுவதே!எண்ணிலடங்கா உதவிகள் தேவைப்படும் போதும் நம்மால் இவ்வுலகில், இப்பிறப்பால் என்ன வித உதவிகளில் கலந்துகொள்ள பங்கெடுக்க இயலுமோ அதில் பங்கெடுக்க பணிசெய்ய மிகச்சிறந்த சேவை எண்ணத்துடன் தங்களை இனிதே வரவேற்கிறது 'வாசி அறக்கட்டளை'."
+    // },
+
+    /* 
+.card {
+    box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.15);
+  }
+  
+  
+  .card-img-top {
+    object-fit: cover; /* Ensures images fill the container */
+    
+  }
+/* .box-shadow{
+  box-shadow: 0px 2px 5px rgba(2, 1, 10, 0.949);
+  
+}
+  /* General styles */
+  body {
+    background-color:#F2F2F2;
+    color: #333;
+  }
+  
+  .card {
+    background-color: #fff;
+    border-color: #ddd;
+  }
+  
+  .card-title {
+    color: #0F56A4;
+  }
+  
+  .card-text {
+    color: #333;
+  }
+  
+  /* Buttons */
+  .btn {
+    background-color: #0F56A4;
+    color: #fff;
+  }
+  
+  .btn:hover {
+    background-color: #0D4C8C;
+  }
+  
+  /* Links */
+  a {
+    color: #0F56A4;
+  }
+  
+  a:hover {
+    color: #0D4C8C;
+  }
+  
+  .p-color{
+    color:#3e578b;
+  }
+  .hover{
+    transition: background-color 0.5s ease-in-out
+  } 

@@ -7,7 +7,7 @@ const FuturePlan = () => {
   const {Heading,P1,P2,P3,P4,P5,P6,P7,P8,P9,P10,P11,P12,P13,P14,P15 } = t("FuturePlan");
   return (
     <div className='m-3'>
-    <div className='container'>
+    <div className='container-fluid'>
     <h3 className='mb-4 fw-bold heading'>{Heading}</h3> 
       <ul>
 

@@ -1,4 +1,26 @@
 .text{
-    color: #b6b6b6;
+    color: #508837;
+    text-align: center;
+    
    
 }
+.heading-home{
+ border-radius: 12px;
+  background-color: #1F4F21;
+ 
+}
+.motive-des{
+background-color: #508837;
+border-radius: 20px;
+}
+.text-content{
+  margin-bottom: 150px;
+  margin-top: 100px;
+ 
+}
+.text-{
+  color: #508837;
+}
+light - bg -A3DBA6
+dark text - 508837
+dark headig - 1F4F21

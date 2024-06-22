@@ -29,17 +29,17 @@ height={'300px'} width={'400px'} ></iframe>
         
         <div className="card-text ">
           <ul>
-            <li className="li"><p className="  mt-4 pl-5  text pb-3 ">
+            <li className="li"><p className="  mt-4 pl-5  text-white pb-3 ">
           <FaLocationDot className='white icon-location icon '/> 
           <span>{DNo}</span><br /> 
-          <span className='mx-4'>{Street}</span><br />
-          <span className='mx-4'>{Area}</span><br />
-          <span className='mx-4'>{Dist}</span><br /> 
-          <span className='mx-4'>{State}</span></p>
+          <span className='mx-4 text-white'>{Street}</span><br />
+          <span className='mx-4 text-white'>{Area}</span><br />
+          <span className='mx-4 text-white'>{Dist}</span><br /> 
+          <span className='mx-4 text-white'>{State}</span></p>
 </li>
-            <li className=" li pb-3"><p className="text" ><IoCall color='' className=' icon  icon-contact text-4xl'/> 944-310-0006</p>
+            <li className=" li pb-3"><p className="text-white" ><IoCall color='' className=' icon  icon-contact text-4xl'/> 944-310-0006</p>
 </li>
-            <li className="text li pb-3 "><MdEmail className='text-start icon icon-mail white' /> wassetrust@gmail.com
+            <li className="text-white li pb-3 "><MdEmail className='text-start icon icon-mail white' /> wassetrust@gmail.com
             </li>
           </ul>
           
