@@ -1,10 +1,12 @@
 .hover-effect {
-  transition: transform 0.1s, box-shadow 0.1s;
+  /* transition: transform 0.001s, box-shadow 0.1s; */
+  transition-duration: 500ms;
 }
 
 .hover-effect:hover {
   transform: scale(1.003);
   box-shadow: 0 4px 8px rgb(23, 98, 6);
+  background-color: #81c384;
  
 }
 
@@ -12,4 +14,7 @@
   margin: 10px;
   overflow: hidden;
   border-radius: 5px;
+}
+.card-div{
+  background-color: #A3DBA6;
 }

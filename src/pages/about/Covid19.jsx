@@ -97,7 +97,7 @@ const Covid19 = () => {
       <div className='container  py-2  '>
         {/* <h3 className='m-4'>{Activities}</h3> */}
       {cardData.map((item) => (
-      <div key={item.id} className="row align-items-center mx-2 m-5 py-3  img-fluid hover-effect " style={{backgroundColor:"#A3DBA6", borderRadius:"20px"}}>
+      <div key={item.id} className="row align-items-center mx-2 m-5 py-3  card-div img-fluid hover-effect " style={{borderRadius:"20px"}} >
         <div className="col-md-6">
           <img src={item.images} alt={item.description} className="img-fluid" style={{borderRadius:"10px",height:"250px",width:"500px"}}/>
         </div>
