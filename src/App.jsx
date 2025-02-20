@@ -25,7 +25,7 @@ const App = () => {
   
   return (
     <div style={{backgroundColor:"#F2FAF2"}}>
-      {/* <BrowserRouter>
+      <BrowserRouter>
        
        <Navbar/>
        
@@ -48,7 +48,7 @@ const App = () => {
       
        <Footer/>
        
-       </BrowserRouter> */}
+       </BrowserRouter>
     </div>
       
 )}
